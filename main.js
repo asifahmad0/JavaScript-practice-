@@ -147,10 +147,10 @@ for(y of arr){
  var a = prompt("entr your name ");
  var mobile = prompt("entr your mobile ");
  var b = "@";
- let c = mobile.charAt(9);
+ let c =  a.length;
  let y = b+a+c;
 console.log(y);
 */
 
 
-//------------------------------------------------------
+//------------------------------------------------------ Arrays
