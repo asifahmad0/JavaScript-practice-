@@ -101,7 +101,7 @@ for(y of arr){
 
 
 //---------------------------------------------------for in loop use for object
-// let student= { // object variable 
+// let student= { // object variable /disnery
 //     name:"anam",
 //     roll: 20, 
 //     cgpa:8.5,
@@ -154,3 +154,25 @@ console.log(y);
 
 
 //------------------------------------------------------ Arrays
+// let marks= [45,58,54,65,95,55,85,54,65,68,48]; //array 
+// console.log(marks,marks.length, typeof(marks)); // array length and type
+// marks[5]=51;// change of index 5
+// console.log(marks[5]); 
+// console.log(marks,marks.length, typeof(marks));
+
+// for (i of marks){ //print all array using for of loops
+//     console.log(i)
+// }
+
+var mark= [85,97,44,37,76,60];
+var sum=0;
+let a=0;
+for(i of mark){
+     
+    let f=i;
+    sum+=f;
+    a+=1
+    console.log(sum)
+}
+var y=sum/a;
+console.log(y)
