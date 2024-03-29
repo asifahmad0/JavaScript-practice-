@@ -209,3 +209,64 @@ function genotp(length){
 let a=genotp(6);
 alert(a);
 
+//------------------------------------------------------ functions
+
+// function nam(value1,value2){ // paramitre and this note work Auter function
+//     let a= value1, value2;
+//     console.log(value1,value2);
+//     return a;
+// Aftre return methord any code was note worked
+
+// }
+//var val=nam("my name","is Asif Ahmad");
+//console.log(val);
+
+// Arrow function introduse in morden JavaScipt
+
+// let ArrowSum=(a,b)=>{
+//     console.log(a+b);
+// }
+// ArrowSum(2,5);
+
+// Have vowel or not
+// var input = prompt("Entre Your value");
+// var count=0
+// var b = ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"];
+// function vowel(value) {
+//     for (i of value) {
+//         for (j of b) {
+//             if (i == j) {
+//                 console.log(`The Vowel is ${i}`);
+//                 count+=1
+//             }
+//         }
+//     }
+//     console.log(`There is ${count} Vowels`);
+// }
+// vowel(input);
+
+// var input = prompt("Entre Your value");
+// var count = 0;
+// function vowel(value) {
+//   for (i of value) {
+//     if (
+//       i == "a" ||
+//       i == "A" ||        //or methord   || => or
+//       i == "e" ||
+//       i == "E" ||
+//       i == "i" ||
+//       i == "I" ||
+//       i == "o" ||
+//       i == "O" ||
+//       i == "u" ||
+//       i == "U"
+//     ) {
+//       console.log(`The Vowel is ${i}`);
+//       count += 1;
+//     }
+//   }
+//   console.log(`There is ${count} Vowels`);
+// }
+
+// vowel(input);
+
