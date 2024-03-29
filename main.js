@@ -199,7 +199,7 @@ console.log(price);
 // };
 // shor();
 
-function genotp(length){
+/*function genotp(length){
     let otp="";
     for(i=1; i<=length; i++){
         otp+=Math.floor(Math.random()*10).toString();
@@ -207,7 +207,7 @@ function genotp(length){
     return otp;
 }
 let a=genotp(6);
-alert(a);
+alert(a);*/
 
 //------------------------------------------------------ functions
 
@@ -270,3 +270,8 @@ alert(a);
 
 // vowel(input);
 
+
+// var arr=[2,5,3,5,8,44,5];
+// arr.forEach(function(val){
+// console.log(val);
+// });
