@@ -164,15 +164,48 @@ console.log(y);
 //     console.log(i)
 // }
 
-var mark= [85,97,44,37,76,60];
-var sum=0;
-let a=0;
-for(i of mark){
+// var mark= [85,97,44,37,76,60];
+// var sum=0;
+// let a=0;
+// for(i of mark){
      
-    let f=i;
-    sum+=f;
-    a+=1
-    console.log(sum)
+//     let f=i;
+//     sum+=f;
+//     a+=1
+//     console.log(sum)
+// }
+// var avg=sum/a;
+// console.log(`YOUR AVRAGE IS ${avg}`);
+
+// you have given price list and minuse 10% and add new price in the list
+/*
+var price=[250,645,300,900,50];
+idx=0;
+for (i of price){
+    console.log(`your index ${idx} current value ${i}`);
+    var offer_price=i/10;
+    var new_price=i-offer_price;
+    price[idx]=new_price;
+    console.log(`your index ${idx} value after 10% off ${new_price}`);
+    idx+=1;
 }
-var y=sum/a;
-console.log(y)
+console.log(price);
+*/
+// let  arr=[34,45,44,24,58,10];
+
+// function shor(){
+//     let a=arr.sort();
+//     console.log(a);
+// };
+// shor();
+
+function genotp(length){
+    let otp="";
+    for(i=1; i<=length; i++){
+        otp+=Math.floor(Math.random()*10).toString();
+    }
+    return otp;
+}
+let a=genotp(6);
+alert(a);
+
