@@ -270,8 +270,39 @@ alert(a);*/
 
 // vowel(input);
 
+// let new_fun = (val) => { one more methorde to write a function
+//   console.log("I Am Asif Ahmad");
+// }
 
+
+
+
+//=======================================================methord
 // var arr=[2,5,3,5,8,44,5];
 // arr.forEach(function(val){
 // console.log(val);
 // });
+
+// var arr=[1,2,3,4,5,6,7,8,9,10];
+
+// arr.forEach((val)=>{ //functions start in (val)
+//        let sq=val**2;
+//       console.log(`Square of ${val} is ${sq}`);
+// })
+
+//map
+// var arr=[1,2,3,4,5,6,7,8,9,10];
+
+// arr.map((val)=>{ //map methord creat a new array after proforming a task
+//        let sq=val**2;
+//       console.log(`Square of ${val} is ${sq}`);
+// })
+
+// var arr=[1,2,3,4,5,6,7,8,9,10];
+
+// let new_arr=arr.filter((val)=>{ // find the even numbre using the filre methorde
+//        return val%2==0;
+
+// });
+// console.log(new_arr);
+
