@@ -306,3 +306,13 @@ alert(a);*/
 // });
 // console.log(new_arr);
 
+//--------------------------------------------------objacts oriented Programming----------------------------------------
+
+// let div = document.querySelector('#myid');
+
+// div.innerHTML='my name is asif ahmad';
+
+// let id1 = div.getAttribute('id'); // for get id or class
+// console.log(id1)
+// let id2 = div.setAttribute('id', 'newid'); // for change new id or class
+// console.log(id2)
