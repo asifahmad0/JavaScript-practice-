@@ -330,6 +330,7 @@ alert(a);*/
 
 // let head= document.querySelector('h2');
 // head.setAttribute('class', 'css');
+// head.classList.add('newClass');
 // let div=document.querySelector('#myid');
 // let btn=document.createElement('button');
 // div.append(btn);
