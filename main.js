@@ -310,6 +310,7 @@ alert(a);*/
 
 //let head= document.querySelector('h2');
 //head.innerText="my name is asif ahmad";
+// head.remove();
 
 // let div1 = document.querySelector('#myid'); // FOR Access div id or class
 
