@@ -340,3 +340,16 @@ alert(a);*/
 // btn.style.color='white';
 // btn.style.padding='10px 20px'
 
+// div1 = document.querySelector('#myid');
+// let btn2 = document.createElement('button');
+// let btn3 = document.getElementById('btn3');
+// div1.append(btn2);
+// btn2.innerText="click me 2";
+
+// btn2.onclick = ()=>{ // event write methord no 2
+//     console.log("btn 2 working");
+// }
+
+// btn3.addEventListener('click', function(){
+//     console.log("Btn 3 is working ");
+// })
