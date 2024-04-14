@@ -327,3 +327,14 @@ alert(a);*/
 // div1.prepend(newBtn);  // for learn var.prepand() div ke andar but content ke start me 
 // div1.before(newBtn);  // for learn var.before() div ke bahar but div ke start me
 // div1.after(newBtn);  // for learn var.after() div ke bahar but div ke last me
+
+// let head= document.querySelector('h2');
+// head.setAttribute('class', 'css');
+// let div=document.querySelector('#myid');
+// let btn=document.createElement('button');
+// div.append(btn);
+// btn.innerText='Click Me';
+// btn.style.background='green';
+// btn.style.color='white';
+// btn.style.padding='10px 20px'
+
