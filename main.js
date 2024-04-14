@@ -306,13 +306,23 @@ alert(a);*/
 // });
 // console.log(new_arr);
 
-//--------------------------------------------------objacts oriented Programming----------------------------------------
+//===============================================Document oriented Modle===================================
 
-// let div = document.querySelector('#myid');
+//let head= document.querySelector('h2');
+//head.innerText="my name is asif ahmad";
 
-// div.innerHTML='my name is asif ahmad';
+// let div1 = document.querySelector('#myid'); // FOR Access div id or class
 
-// let id1 = div.getAttribute('id'); // for get id or class
-// console.log(id1)
-// let id2 = div.setAttribute('id', 'newid'); // for change new id or class
-// console.log(id2)
+// let divid= div1.getAttribute('id');// FOR GET div id or class name
+// console.log(divid);
+
+// let changeid=div1.setAttribute("id", "newid");// FOR SET/change div's new id or class name 
+// console.log(changeid);
+// let div1 = document.querySelector('#myid');
+// let span= document.createElement('span');
+// let newBtn= document.createElement('button');//  for lear creat Element 
+// newBtn.innerText="See More"
+// div1.append(span); // for learn var.appand() div ke andar but content ke last me 
+// div1.prepend(newBtn);  // for learn var.prepand() div ke andar but content ke start me 
+// div1.before(newBtn);  // for learn var.before() div ke bahar but div ke start me
+// div1.after(newBtn);  // for learn var.after() div ke bahar but div ke last me
