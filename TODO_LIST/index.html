@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="entre_todo">
+        <input id="input_todo" type="text" placeholder="Write your todo" />
+      </div>
+
+      <div class="box">
+      </div>
+      
+    </main>
+
+    <script>
+      let input_todo = document.querySelector("#input_todo");
+      let box = document.querySelector(".box");
+
+
+      input_todo.addEventListener("keyup", function (event) {
+        if (event.key == "Enter") {
+          if (input_todo.value !== "") {
+          addtodo(this.value);
+          this.value="";
+         
+          function addtodo(add1){
+            let newTodo= document.createElement('div');
+            newTodo.classList.add('todo');
+            box.appendChild(newTodo);
+            newTodo.innerHTML=`<h1>${add1}</h1>
+          <span class="close">×</span>`;
+          let h1 = document.querySelector("h1"); 
+          }
+
+          } else {
+            alert("Please Entre your todo");
+          }
+        }
+      });
+
+      box.addEventListener("click", (event) => {
+        console.log(event.target);
+        if (event.target.classList.contains("close")) {
+          event.target.parentNode.remove();
+        }
+      });
+    </script>
+  </body>
+</html>
