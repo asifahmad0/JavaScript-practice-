@@ -353,3 +353,5 @@ alert(a);*/
 // btn3.addEventListener('click', function(){
 //     console.log("Btn 3 is working ");
 // })
+
+
