@@ -24,4 +24,3 @@ console.log(x);
 
 // 2 fixed the bug
 
-
