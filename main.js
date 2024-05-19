@@ -354,4 +354,38 @@ alert(a);*/
 //     console.log("Btn 3 is working ");
 // })
 
+///////////////////////////////CLASSES AND OBJECTS/////////////////////////////
+
+
+// let employe = {
+//     name: 'Asif Ahmad',
+//     marks: 85,
+//     printMarks: function(){ // under the objext you can write function like this 
+//         console.log('marks',this.marks);
+//     },
+//     calTax(){// under the objext you can write function or like this 
+//         console.log('tax is 12%');
+//     }
+// }
+
+// class toyota{
+//     start(){
+//         console.log('car start');
+//     }
+//     stop(){
+//         console.log('car stop');
+//     }
+//     Brande(brande){
+//           this.Brande=brande;
+//     }
+//     Color(color){
+//         this.Color=color;
+//   }
+// }
+
+// let fortuner= new toyota();
+// fortuner.Brande('Fortuner');
+// fortuner.Color('Red');
+// console.log(fortuner);
+
 
