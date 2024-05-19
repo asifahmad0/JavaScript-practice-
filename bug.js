@@ -22,5 +22,35 @@ console.log(x);
 */
 
 
-// 2 fixed the bug
+// 2 Qustion and askd HCL
+
+// function myFunction(a,b,c){
+//     return[a,b,c,a,b,c];
+// }
+
+// let a = myFunction.length; //result 1
+// let b = myFunction().length; //result 2 -> ()
+// let c = myFunction(1,2,3).length; // result 3 -> (1,2,3)
+// console.log(a,b,c);
+
+// 3 // qustion time complax
+
+// function calc(){
+//     let i=0;
+//     while(i<2000000){
+//         i++
+//     }   
+// }
+
+// methord 1 to do in 5 line of code
+// let before= new Date().getTime();
+// calc();
+// let after = new Date().getTime();
+// let x = after-before;
+// console.log(x);
+
+// methord 2 to do in 3 line of code
+// console.time();
+// calc();
+// console.timeLog();
 
