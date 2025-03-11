@@ -388,4 +388,22 @@ alert(a);*/
 // fortuner.Color('Red');
 // console.log(fortuner);
 
+//----------------------Api Fetch/ Integration
+/*let main = document.getElementById('main');
+fetch("https://dummyjson.com/products").then((res)=>{
+    return res.json();
+}).then((data)=>{
+    console.log(data); 
 
+    data.products.map((item)=>{
+        main.innerHTML += `<div class="cart">
+        <div class="img">
+          <img src="${item.images[0]}" />
+        </div>
+        <div class="contant">
+          <h1>${item.title}</h1>
+          <p>${item.description}</p>
+        </div>
+      </div>`;
+    });
+});*/
