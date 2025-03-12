@@ -406,4 +406,7 @@ fetch("https://dummyjson.com/products").then((res)=>{
         </div>
       </div>`;
     });
-});*/
+}).catch((error)=>{
+    console.log(error);
+});
+*/
