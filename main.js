@@ -410,3 +410,26 @@ fetch("https://dummyjson.com/products").then((res)=>{
     console.log(error);
 });
 */
+
+/*
+// fetch api using promisess
+const pr = new Promise((resolve, reject)=>{
+    let x=fetch("https://dummyjson.com/products");
+    if(x){  //if fetch complete
+
+        x.then((responce)=>{
+            return responce.json(); //convert response into json
+        
+        }).then((data)=>{
+            console.log(data);
+        }).catch((err)=>{
+            console.error(err);
+        })
+        resolve(x);
+    }else{ //if fetch failed
+        reject(x)
+    }
+
+})
+
+*/
