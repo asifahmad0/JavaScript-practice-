@@ -391,6 +391,10 @@ alert(a);*/
 /////////////////////////////////////////////////////////////////Prototype//////////////////////////
 
 /*
+
+Object.prototype.myAppData = "This is prototype for objects, all object can use";
+
+
 let users= {
     getFullName:function(){
         return this.name+" "+this.lastName;
