@@ -354,7 +354,7 @@ alert(a);*/
 //     console.log("Btn 3 is working ");
 // })
 
-///////////////////////////////CLASSES AND OBJECTS/////////////////////////////
+////////////////////////////////////////////////////////////////CLASSES AND OBJECTS/////////////////////////////
 
 
 // let employe = {
@@ -388,7 +388,40 @@ alert(a);*/
 // fortuner.Color('Red');
 // console.log(fortuner);
 
-//----------------------Api Fetch/ Integration
+/////////////////////////////////////////////////////////////////Prototype//////////////////////////
+
+/*
+let users= {
+    getFullName:function(){
+        return this.name+" "+this.lastName;
+    },
+    getAge:function(){
+        let age = new Date().getFullYear()-this.birth;
+        return age;
+    }
+}
+let student ={
+    name:"Asif",
+    lastName:"Ahmad",
+    birth:2000,
+    fullName:users.getFullName
+
+}
+student.__proto__=users; // CREATE PROTO TYPE
+
+
+let teacher ={
+    name:"Sanjive",
+    lastName:"Kumar",
+    birth:1989
+}
+teacher.__proto__=users;
+
+console.log(student.fullName()) // THIS CODE LOAD WITH YOUR CODE 
+console.log(student.getAge())  // THIS CODE LOAD WHEN YOU NEED/USE
+console.log(teacher.getAge())*/
+
+//----------------------------------------------------------------Api Fetch/ Integration
 /*let main = document.getElementById('main');
 fetch("https://dummyjson.com/products").then((res)=>{
     return res.json();
